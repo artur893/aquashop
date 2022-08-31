@@ -1,0 +1,13 @@
+.cart>img {
+    height: 30px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insidecart {
+    background-color: var(--col3);
+}

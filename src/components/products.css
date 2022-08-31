@@ -1,0 +1,67 @@
+body {
+    background-color: var(--col4);
+}
+
+.card>img {
+    width: 75%;
+    height: 75%;
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+
+.card>img:hover {
+    opacity: 0.35;
+}
+
+.buynow {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: clamp(14px, 1.8vw, 40px);
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buynow>img {
+    width: 75%;
+    height: 75%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 34vw;
+    height: 34vw;
+}
+
+.container {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+p {
+    margin: 10px;
+}
+
+.title {
+    font-size: clamp(10px, 1.4vw, 20px);
+    font-family: 'Roboto', sans-serif;
+    color: var(--col1);
+}
+
+.price {
+    font-size: clamp(14px, 1.8vw, 24px);
+    font-weight: 700;
+}
