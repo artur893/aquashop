@@ -7,9 +7,9 @@ const Nav = (props) => {
     return (
         <nav>
             <ul className="navlist">
-                <li>Home</li>
-                <li>Products</li>
-                <li>Contact</li>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/products'>Products</a></li>
+                <li><a href='/contact'>Contact</a></li>
                 <Cart sendCart={cart}/>
             </ul>
         </nav>
